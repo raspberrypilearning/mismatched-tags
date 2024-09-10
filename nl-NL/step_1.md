@@ -1,6 +1,6 @@
-Make sure that tags with an open and close tag such as `<div>` and `</div>` are correctly matched and nested.
+Zorg ervoor dat tags met een openings- en sluitingstag, zoals `<div>` en `</div>`, overeenkomen en correct genest zijn.
 
-This HTML is incorrect because there is no closing `</div>` tag.
+Deze HTML is onjuist omdat er geen afsluitende `</div>`-tag is.
 
 ## --- code ---
 
@@ -14,7 +14,7 @@ line_numbers: false
 </section>
 --- /code ---
 
-This HTML is incorrect because the `</div>` appears before the closing `</p>` tag.
+Deze HTML is onjuist omdat de `</div>` vóór de afsluitende `</p>`-tag staat.
 
 ## --- code ---
 
@@ -27,4 +27,4 @@ line_numbers: false
 
 \--- /code ---
 
-**Tip:** If your HTML is incorrect, then sometimes a web browser will work out what you meant. You should still make sure your HTML is correct as incorrect HTML might cause problems later. Incorrect HTML also makes it difficult for screen readers to understand your page.
+**Tip:** Als je HTML onjuist is, kan een webbrowser soms toch achterhalen wat je bedoelt. Zorg er wel voor dat jouw HTML correct is, want onjuiste HTML kan later problemen opleveren. Onjuiste HTML zorgt er bovendien voor dat schermlezers jouw pagina moeilijk kunnen begrijpen.
