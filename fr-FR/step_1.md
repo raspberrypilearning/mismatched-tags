@@ -1,6 +1,6 @@
-Make sure that tags with an open and close tag such as `<div>` and `</div>` are correctly matched and nested.
+Assure-toi que les balises avec une balise ouverte et une balise fermée telles que `<div>` et `</div>` sont correctement appariées et imbriquées.
 
-This HTML is incorrect because there is no closing `</div>` tag.
+Ce code HTML est incorrect parce qu'il n'y a pas de balise fermante `</div>`.
 
 ## --- code ---
 
@@ -14,7 +14,7 @@ line_numbers: false
 </section>
 --- /code ---
 
-This HTML is incorrect because the `</div>` appears before the closing `</p>` tag.
+Ce code HTML est incorrect parce que la balise `</div>` apparaît avant la balise fermante `</p>`.
 
 ## --- code ---
 
@@ -27,4 +27,4 @@ line_numbers: false
 
 \--- /code ---
 
-**Tip:** If your HTML is incorrect, then sometimes a web browser will work out what you meant. You should still make sure your HTML is correct as incorrect HTML might cause problems later. Incorrect HTML also makes it difficult for screen readers to understand your page.
+**Astuce :** Si ton code HTML est incorrect, il arrive qu'un navigateur web comprenne ce que tu voulais dire. Tu dois quand même t'assurer que ton code HTML est correct, car un code HTML incorrect pourrait causer des problèmes plus tard. Un code HTML incorrect rend également difficile la compréhension de ta page par les lecteurs d'écran.
