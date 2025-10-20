@@ -1,6 +1,6 @@
-Make sure that tags with an open and close tag such as `<div>` and `</div>` are correctly matched and nested.
+确保标签带有开始和结束标签（例如 `<div>` 和 `</div>`）正确匹配和嵌套。
 
-This HTML is incorrect because there is no closing `</div>` tag.
+这个 HTML 不正确，因为没有结束的 `</div>` 标签。
 
 ## --- code ---
 
@@ -12,7 +12,8 @@ line_numbers: false
 <section>
 <div><p>Lorem ipsum</p>
 </section>
---- /code ---
+
+\--- /code ---
 
 This HTML is incorrect because the `</div>` appears before the closing `</p>` tag.
 
@@ -23,7 +24,7 @@ filename: index.html
 line_numbers: false
 --------------------------------------------------------
 
-<div><p>Lorem ipsum</p></div>
+<div><p>Lorem ipsum</div></p>
 
 \--- /code ---
 
