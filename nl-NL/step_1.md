@@ -12,7 +12,8 @@ line_numbers: false
 <section>
 <div><p>Lorem ipsum</p>
 </section>
---- /code ---
+
+\--- /code ---
 
 Deze HTML is onjuist omdat de `</div>` vóór de afsluitende `</p>`-tag staat.
 
@@ -23,7 +24,7 @@ filename: index.html
 line_numbers: false
 --------------------------------------------------------
 
-<div><p>Lorem ipsum</p></div>
+<div><p>Lorem ipsum</div></p>
 
 \--- /code ---
 
