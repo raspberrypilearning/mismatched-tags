@@ -12,7 +12,8 @@ line_numbers: false
 <section>
 <div><p>Lorem ipsum</p>
 </section>
---- /code ---
+
+\--- /code ---
 
 Ce code HTML est incorrect parce que la balise `</div>` apparaît avant la balise fermante `</p>`.
 
@@ -23,7 +24,7 @@ filename: index.html
 line_numbers: false
 --------------------------------------------------------
 
-<div><p>Lorem ipsum</p></div>
+<div><p>Lorem ipsum</div></p>
 
 \--- /code ---
 
